@@ -1,0 +1,104 @@
+*{
+    text-align: center;
+}
+
+body{
+    background: #e0f2f1;
+    color: #004d40;
+    font-family: 'Montserrat', sans-serif;    
+    display: grid;
+    grid-template-columns: 3fr 10fr;
+    width:100vw;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 800;
+}
+
+h5, h6 {
+    font-size: 24px;
+}
+
+p {
+    color: #424242;
+}
+
+.logo {
+    width: 180px;
+}
+
+nav{
+    padding: 20px 15%; 
+    border-right: solid 1px #004d40;
+    height:100%;
+}
+
+nav section {
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    position: sticky;
+}
+nav div{
+    margin-bottom: 20px;
+}
+
+.properties {
+    padding: 0px 5%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.property{ 
+    margin: 8px 0;
+    padding: 10px 10px;
+    width: 80%;
+    background: #80cbc4;
+    transition: 300ms ease-in-out;
+    box-shadow: 9px 7px 26px -11px rgba(64,92,65,0.68);
+    -webkit-box-shadow: 9px 7px 26px -11px rgba(64,92,65,0.68);
+    -moz-box-shadow: 9px 7px 26px -11px rgba(64,92,65,0.68);;
+}
+
+.property:hover { 
+    margin: 16px 0;
+    width: 82%;
+    background: #80cbc4;
+}
+.property .img{
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.property section{
+    padding: 10px 20px;
+}
+
+.property section p{
+    margin: 0px
+}
+
+.btn {
+    background-color: white;
+    border: 0px;
+    border-radius: 0%;
+}
+
+.btn:hover {
+    background-color: rgb(114, 38, 86);
+    font-weight: 600;
+    color: white;
+    border: 0px;
+    border-radius: 0%;
+}
+
+.search-button {
+    background-color: #004d40;
+    color: white;
+}
+
+.search-button:hover{
+    background-color: black;
+    color: white;
+}
